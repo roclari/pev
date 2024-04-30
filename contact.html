@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempo em Maricá</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-nav">
+                    <a href="index.html" class="navbar-brand">Tempo em Maricá</a>
+                    <a href="index.html">INÍCIO</a>
+                    <a href="about.html">SOBRE</a>
+                    <a href="news.html">NOTÍCIAS</a>
+                    <a href="reports.html">BOLETIM</a>
+                    <a href="contact.html">CONTATO</a>
+                </div>
+            </div>
+        </nav>
+    <div id="contact-container">
+        <h1>Comentários</h1>
+        <div class="underline">
+        </div>
+        <form action="mailto:larissarocha9@gmail.com" enctype="text/plain" method="POST" id="contact-form">
+          <div class="contact-name">
+            <label for="contact-name"></label>
+            <input type="text" placeholder="Nome" name="name" id="name_input" required>
+          </div>
+          <div class="contact-email">
+            <label for="contact-email"></label>
+            <input type="email" placeholder="E-mail" name="email" id="email_input" required>
+          </div>
+          <div class="contact-telephone">
+            <label for="contact-telephone"></label>
+            <input type="text" placeholder="Nº de telefone" name="telephone" id="telephone_input" required>
+          </div>
+          <div class="contact-subject">
+            <label for="contact-subject"></label>
+            <select placeholder="Assunto" name="subject" id="subject_input" required>
+              <option disabled hidden selected>Selecione o tipo de comentário</option>
+              <option>Quero fazer uma reclamação</option>
+              <option>Quero fazer um elogio</option>
+              <option>Quero fazer uma sugestão sobre o site</option>
+            </select>
+          </div>
+          <div class="contact-message">
+            <label for="contact-message"></label>
+            <textarea name="message" placeholder="Comentários" id="message_input" cols="30" rows="5" required></textarea>
+          </div>
+          <div class="contact-submit">
+            <input type="submit" value="Enviar" id="contact_form_button" />
+          </div>
+        </form>
+      </div>
+    </header>
+<div class="footer">
+    <p>Desenvolvido por L.R. © MARICÁ - 2024 Todos os direitos reservados.</p>
+</div>
+</body>
+</html>
